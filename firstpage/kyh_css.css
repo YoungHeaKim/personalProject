@@ -1,0 +1,165 @@
+@charset "utf-8"; 
+/* Common CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 14px; vertical-align: baseline; font-family: "Malgun Gothic", "맑은고딕", "굴림", "Gulim", "Arial";}
+table, caption, tbody, tfoot, thead, tr, th, td{margin: 0; padding: 0; border: 0; font-size: 14px; vertical-align: middle; font-family: "Malgun Gothic", "맑은고딕", "굴림", "Gulim", "Arial";}
+	
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+body{line-height: 1;}
+html, body { position: relative; z-index: 1; height: 100%;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote: before, blockquote: after, q: before, q: after{content: ''; 	content: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+/* change colours to suit your needs */
+ins{background-color: #ff9; color: #000; text-decoration: none;}
+/* change colours to suit your needs */
+mark{background-color: #ff9; color: #000; font-style: italic; font-weight: bold;}
+del{text-decoration: line-through;}
+abbr[title], dfn[title]{border-bottom: 1px dotted; cursor: help;}
+/* change border colour to suit your needs */
+hr{display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0;}
+/*input, select, button{border: 0; background: none; padding: 0; margin: 0; vertical-align: middle; cursor: pointer;}*/
+em, address{font-style: normal;}
+select, button{border: 0; background: none; padding: 0; margin: 0; vertical-align: middle; cursor: pointer;}
+input{border: 0; background: none; padding: 0; margin: 0; vertical-align: middle;}
+
+/* a-style */
+a{margin: 0; padding: 0; vertical-align: baseline; background: transparent; color: #000; text-decoration: none;  font-size: 14px;}
+a: hover,a: active,a: focus{color: #04b9c2; text-decoration: none;}
+.hiddenTitle{position: absolute; left: -999999px; width: 1px; height: 1px; overflow: hidden;}
+.off{display: none;}
+.float_l{float: left !important;}
+.float_r{float: right;}
+.float_l dt, .float_l dd, .float_r dt, .float_r dd{float: left}
+.clear{clear: both}
+.blind{display: block; overflow: hidden; position: absolute; top: -1000em; left: 0;}
+.ir span{display: block; overflow: hidden; visibility: hidden; position: relative; width: 1px; height: 1px; visibility: hidden; z-index: -1;}
+.off{display: none;}
+
+.attach{position: relative}
+.attach input[type='text']{width: 390px}
+.attach input[type='file']{position: absolute; top: -5px; left: 0; opacity: 0; filter: alpha(opacity=0) ; width: 100%; cursor: pointer}
+
+section{display: block; position: relative; z-index: 1; margin: 0 auto}
+section: after{content: ""; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden}
+
+
+
+
+
+
+
+/* homework*/
+div.warp{background: #efefef; padding: 20px 0;}
+div.content_warp{width: 1000px; margin: 0 auto;  background: #fff; position: relative;}
+div.header{ overflow: hidden; text-align: center;}
+div.header h2{font-size: 20px; color: #3474dc; margin: 50px 0 15px 0;}
+div.header h3{font-size: 14px; color: #c5c5c5; margin-bottom: 15px;}
+div.header h1{font-size: 40px; margin-bottom: 15px;}
+div.header h4{font-size: 20px; color: #555; margin-bottom: 15px; }
+button.btn_1{border: 1px solid #eee; background: #efefef; position: absolute; left: 0; top: 350px; padding: 10px; font-size: 18px;}
+button.btn_2{border: 1px solid #eee; background: #efefef; position: absolute; right: 0; top: 350px; padding: 10px; font-size: 18px;}
+div.content{width: 800px; margin: 0 auto;}
+div.content.content1 {overflow: hidden; text-align: center;}
+div.content.content1 img{width: 550px; height: auto; border: 1px solid #eee;}
+div.content.content1 p{margin-bottom: 30px; line-height: 1.6em; }
+div.content.content1 p.level{width: 543px; text-align: left; border-left: 2px solid #9ec6f7; color: #ffa48d; margin: 10px auto 30px auto; padding-left: 6px;}
+div.content.content1 p.level em{color: #000;}
+div.content .title{border-top: 2px solid #000; border-bottom: 1px solid #999; padding: 20px 0;}
+div.content .title h1{font-size: 20px; margin-bottom: 10px;}
+div.content .title p{color: #999;}
+div.content.content2 ul li strong{display: block; margin: 15px 0 0 0; color: #ffa48d; font-size: 18px;}
+div.content.content2 ul li ul{overflow: hidden; clear: both;}
+div.content.content2 ul li ul li{float: left; border-left: 1px solid #999; padding-left: 10px; margin: 15px 15px 15px 0;}
+div.content.content2 ol{list-style: decimal; line-height: 1.5em; margin: 10px 0 50px 14px;}
+div.content.content2 ol li{font-weight: border;}
+div.content.content3 h2{color: coral; }
+div.content.content3 img{width: 300px; float: left; margin: 20px 0;}
+div.content.content3 ul li{overflow: hidden; clear: both;}
+div.content.content3 ul li div{float: left; margin: 20px 10px;}
+div.content.content3 ul li div{line-height: 1.5em;}
+div.content4{border: 1px solid #000; overflow: hidden;}
+div.content4 a:hover{background-color: #9ec6f7;}
+div.content4 h1{background: #efefef; border-bottom: 1px solid #999; padding: 10px 0;}
+div.content4 ul{height: 100px; overflow: auto; list-style: disc; padding-left: 30px; line-height: 1.5em; }
+div.content5{background-color: #efefef; border: 1px solid #eee; overflow: hidden; clear: both; margin-top: 30px; margin-bottom: 30px;}
+div.content5 img{width: 84px; margin: 20px; float: left;}
+div.content5 ul{float: left; line-height: 1.9em; margin: 20px 0px;}
+div.content5 ul li{font-weight: bolder;}
+div.content5 ul li a{color: blue;}
+div.content5 ul li button{width: 90px; padding: 5px; font-weight: bolder; border: 1px solid #eee; background-color: floralwhite;}
+div.content5 p{clear: both; margin: 10px 20px; line-height: 1.7em; font-size: 13.5px;}
+div.content_warp .footer{margin: 30px 100px; line-height: 1.4em;}
+div.content6 h1{font-size: 20px; border-bottom: 1px solid #efefef; margin-bottom: 20px; padding-bottom: 10px;}
+div.content6{padding-bottom: 40px;}
+div.content6 ul{line-height: 1.7em;}
+div.content6 ul li a{color: cornflowerblue;}
+div.footer ul li.footer{text-align: center; border-right: 1px solid; padding-right: 10px; text-align: center; }
+div.footer{text-align: center; clear: both; text-align: center; overflow: hidden; width: 1000px; margin: 0 auto;}
+div.footer ul li{float: left; margin: 10px 5px;}
+div.footer ul{clear: both; overflow: hidden; text-align: center; ; margin: 0 230px;}
+div.footer p{padding-bottom: 10px;}
+div.footer p a{font-weight: bolder; margin: 0 5px;}
+div.footer ul li.footer.footer1{font-weight: 700;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
